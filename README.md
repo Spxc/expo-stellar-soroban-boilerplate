@@ -7,11 +7,24 @@
 
 The Expo Stellar Soroban Boilerplate is a powerful starting point for developing cross-platform native apps using Expo. It is specifically designed to connect to the Soroban futurenet and provides a comprehensive set of features to kickstart your app development process.
 
-## Features
 
+## Todo:
+- [x] Load account
+- [x] Load account balance
+- [ ] Load account transactions
+- [x] Load account & ledger events
+- [ ] Send payment
+- [ ] Swap asset
+- [ ] Load contract data
+- [ ] Wallet Connect v2 (connection, approval, signing)
+
+
+## Features
 The boilerplate code includes the following features:
 
-1. **Soroban SDK**: The boilerplate is integrated with the Soroban SDK, allowing you to seamlessly connect to the Soroban futurenet and utilize its functionalities within your app.
+0. **Soroban SDK**: The boilerplate is integrated with the Soroban SDK, allowing you to seamlessly connect to the Soroban futurenet and utilize its functionalities within your app.
+
+1. **Soroban Horizon Wrapper SDK**: Integrated with in-house maintained wrapper Expo/RN
 
 2. **Authentication**: It provides a preconfigured authentication system, enabling users to securely authenticate with the Soroban futurenet and access protected resources.
 
