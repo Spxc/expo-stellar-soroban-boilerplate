@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "stashapp-soroban",
-    "slug": "stashapp-soroban",
+    "slug": "soroban-stashapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,32 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spxc.stashapp.soroban"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.spxc.stashapp.soroban"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bcd3b1cc-7ba9-42f3-bb46-256b1b73ff54"
+      }
+    },
+    "owner": "spxc",
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to use Face ID."
+        }
+      ]
+    ]
   }
 }
